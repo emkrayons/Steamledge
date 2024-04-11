@@ -1,0 +1,77 @@
+.topheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.para{
+    padding-top: 10px;
+}
+.fluid{
+    background-color: #EEF2F7
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+}
+.img-fluid{
+    width: 100%;
+    height: 60px;
+}
+
+*{
+    color: dimgray;
+}
+
+.sec{
+    background-color: rgba(105, 105, 105, 0.055);
+
+}
+
+.third-one{
+    background-color: #EEF2F7
+}
+#head{
+    font-size: 80px;
+}
+
+.Second-one, .footer{
+    background-color: #2B67AF;
+}
+
+.last{
+    background: linear-gradient(45deg, #2b84f0,rgba(255, 0, 0, 0.651));
+}
+
+.copy{
+    margin-left: 5px;
+}
+
+.animate:hover{
+    transform: translateY(-10px);
+    transition: transform 0.9s;
+}
+
+
+
+@media(max-width:768px) {
+    .been{
+       width: 100%;
+    }
+
+    .teach{
+        padding-top: 45px;
+    }
+
+    .education,.software{
+        padding-top: 45px;
+    }
+
+    #head{
+        font-size: 36px;
+    }
+}
+
+
+
+
